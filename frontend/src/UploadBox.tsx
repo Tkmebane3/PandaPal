@@ -1,6 +1,5 @@
 import { useState } from 'react'
-function UploadBox() {
-    const [fileName, setFileName] = useState("") //useState stores what passes inside setFileName as filename
+function UploadBox({ fileName, setFileName }: { fileName: string; setFileName: (name: string) => void }) {
     return(
     <div className = "uploadBox">
         <input type= "file" 
