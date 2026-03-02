@@ -1,4 +1,4 @@
-function Header ({title}: {title: string}) {
+function Header () {
     return (<h1 className= "logo">
              <span className ="panda">Panda</span>
              <span className = "pal">Pal</span>
